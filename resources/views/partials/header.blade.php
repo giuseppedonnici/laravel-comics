@@ -52,7 +52,7 @@
             <ul class="w-100 list-unstyled d-flex justify-content-around">
                 @foreach ($menu as $item)
                 <li class="text-uppercase">
-                    <a href="{{route( $item['link']) }}">{{ $item['title'] }}</a>
+                    <a class="{{ Route::currentRouteName() === $item['link'] ? 'active' : '' }}" href="{{route( $item['link']) }}">{{ $item['title'] }}</a>
                 </li>
                 @endforeach
             </ul>
