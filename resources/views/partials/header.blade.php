@@ -14,31 +14,31 @@
         ],
         [
             'title' => 'tv',
-            'link' => 'home'
+            'link' => 'tv'
         ],
         [
             'title' => 'games',
-            'link' => 'home'
+            'link' => 'games'
         ],
         [
             'title' => 'collectibles',
-            'link' => 'home'
+            'link' => 'collectibles'
         ],
         [
             'title' => 'videos',
-            'link' => 'home'
+            'link' => 'videos'
         ],
         [
             'title' => 'fans',
-            'link' => 'home'
+            'link' => 'fans'
         ],
         [
             'title' => 'news',
-            'link' => 'home'
+            'link' => 'news'
         ],
         [
             'title' => 'shop',
-            'link' => 'home'
+            'link' => 'shop'
         ],
     ];
 @endphp
